@@ -1,2 +1,3 @@
-# tinypets
-Minimal JS interface to an image classifer
+# Breakdance (Bboy or Breaking) Freeze/pose Detector
+
+Built using fastai and a minimal JS interface
