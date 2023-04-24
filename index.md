@@ -3,13 +3,17 @@ title: Home
 layout: page
 ---
 
-# Simple JS Image Classifiers
+# Breakdance Freeze/Pose Classifer
 
-Linked above are some examples of vision classifiers using JavaScript from [fast.ai](https://course.fast.ai) staff and students. Also, check out these other examples from students, along with the [fast.ai forums](https://forums.fast.ai) username of each contributor:
+This space classifies breakdance (more accurately, bboying or breaking) freezes based on the input photo.
 
-- [predict_image](https://github.com/nuvic/predict_image) h/t nuvic
-- [Dog vs Cat](https://edwardjross.github.io/gradio-image-demo/) h/t edwardjross 
-- [Food classifier](https://suvash.github.io/very-basic-gradio-api-app/) h/t suvash 
-- [webcam interface](https://misza222.github.io/hf_api_predict/) h/t misza222
-- [Get to know your pet](https://gettoknowyourpet.com/) h/t aabdalla
-- [pyscript app](https://matdmiller.github.io/fastai-huggingface-sample-web-app1/pyscript-classifier.html) h/t matdmiller
+The model currently recognises two static 3 static freezes: 
+- airchair
+- airbaby, and
+- hollowback
+
+The model also recognises snapshots of two dynamic movements:
+- the airflare, and
+- headspin
+
+Note: Results may vary depending on the dancer’s form and if there are variations in leg placement (in the context of dance, variations are inevitable in pursuit of creativity or as the result of difference in flexibility).
